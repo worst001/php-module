@@ -1,3 +1,0 @@
-services:
-  phplint.tool.processor:
-    class: PhpGitHooks\Module\PhpLint\Infrastructure\Tool\PhpLintToolProcessor
