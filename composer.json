@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "bruli/php-git-hooks": "^5.1"
+    },
+    "scripts": {
+        "post-install-cmd": [
+          "PhpGitHooks\\Infrastructure\\Composer\\ConfiguratorScript::buildConfig"
+        ],
+        "post-update-cmd": [
+          "PhpGitHooks\\Infrastructure\\Composer\\ConfiguratorScript::buildConfig"
+        ]
+    }
+}

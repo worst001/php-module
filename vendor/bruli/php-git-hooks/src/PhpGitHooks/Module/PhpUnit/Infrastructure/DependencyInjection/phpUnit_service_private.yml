@@ -1,0 +1,9 @@
+services:
+  strict.coverage.tool:
+    class: PhpGitHooks\Module\PhpUnit\Service\StrictCoverageTool
+    public: false
+    arguments:
+      - "@strict.coverage.processor"
+      - "@console.output"
+
+

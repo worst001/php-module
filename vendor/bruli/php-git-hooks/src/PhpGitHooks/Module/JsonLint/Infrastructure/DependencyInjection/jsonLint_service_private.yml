@@ -1,0 +1,6 @@
+services:
+  jsonlint.tool.executor:
+    class: PhpGitHooks\Module\JsonLint\Service\JsonLintToolExecutor
+    arguments:
+      - "@jsonlint.processor"
+      - "@console.output"
